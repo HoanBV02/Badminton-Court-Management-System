@@ -1,0 +1,40 @@
+.option-text {
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .option-text:hover {
+    color: #007bff;
+  }
+
+  .option-text.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .option-text-wrapper {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .interface {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+  }
+  .btn-cancel {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 0;
+  }
+
+  .btn-cancel:hover {
+    color: red;
+    text-decoration: underline;
+  }

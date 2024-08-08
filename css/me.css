@@ -1,0 +1,35 @@
+.shopee-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.shopee-card .card-body {
+    padding: 30px;
+}
+
+.shopee-card .form-group label {
+    font-weight: bold;
+}
+
+.shopee-card .form-control {
+    border: none;
+    border-radius: 8px;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.shopee-card .form-control:focus {
+    background-color: #fff;
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.shopee-card .eye-icon {
+    cursor: pointer;
+}
+
+.shopee-card .input-group-text {
+    background-color: transparent;
+    border: none;
+}

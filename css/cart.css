@@ -1,0 +1,99 @@
+.cart-item {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.cart-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-item-details h5 {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-item-details p {
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.cart-item-actions .input-group {
+    position: relative;
+    width: 100%;
+}
+
+.cart-item-actions .input-group input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.cart-item-actions .input-group .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.cart-item-actions .input-group .btn-danger {
+    margin-left: -1px;
+}
+.input-group {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.input-group input {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.input-group button {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.input-group button[name="update"] {
+    background-color: #4CAF50;
+}
+
+.input-group button[name="delete"] {
+    background-color: #F44336;
+}
+.input-group {
+    width: 200px;
+    margin: 10px auto;
+}
+
+.input-group input {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.input-group button {
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.input-group button[name="update"] {
+    background-color: #4CAF50;
+}
+
+.input-group button[name="delete"] {
+    background-color: #F44336;
+}
